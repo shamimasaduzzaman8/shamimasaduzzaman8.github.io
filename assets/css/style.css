@@ -1194,47 +1194,6 @@ opacity:.95;
 
 }
 
-/*==================================
-Membership
-==================================*/
-
-.member-card{
-
-background:white;
-
-padding:40px;
-
-border-radius:20px;
-
-text-align:center;
-
-box-shadow:0 10px 30px rgba(0,0,0,.06);
-
-transition:.35s;
-
-}
-
-.member-card:hover{
-
-transform:translateY(-10px);
-
-}
-
-.member-card i{
-
-font-size:55px;
-
-color:#2563eb;
-
-margin-bottom:20px;
-
-}
-
-.member-card h4{
-
-font-size:20px;
-
-}
 
 /*==========================
 Research Profiles
@@ -1677,5 +1636,33 @@ transition:.3s;
 transform:translateY(-8px);
 
 box-shadow:0 20px 45px rgba(37,99,235,.15);
+
+}
+
+@media (max-width: 768px) {
+
+  .custom-navbar{
+    padding: 10px 0;
+  }
+
+  .logo-text{
+    font-size: 1.05rem;
+  }
+
+  .page-header{
+    padding: 120px 16px 35px;
+  }
+
+  .page-header h1{
+    font-size: 1.9rem;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+
+  .page-header p{
+    font-size: 0.95rem;
+    line-height: 1.5;
+    padding: 0 8px;
+  }
 
 }
