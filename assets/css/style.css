@@ -419,6 +419,20 @@ Contact
     transform:translateY(-6px);
 }
 
+.hero-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.hero-buttons .btn{
+    margin-right:0;
+}
+
+.hero-buttons .btn i{
+    margin-right:8px;
+}
+
 /* ===========================
    Hero Responsive
 =========================== */
@@ -528,6 +542,15 @@ Contact
         margin:0 6px;
     }
 
+    .hero-buttons{
+    justify-content:center;
+    }
+
+    .hero-buttons .btn{
+        width:100%;
+        max-width:280px;
+    }
+
 }
 
 /*==============================
@@ -595,24 +618,6 @@ Premium Navbar
 .nav-link:hover::after{
 
     width:100%;
-
-}
-
-.hero{
-
-    padding-top:130px;
-
-}
-
-.hero-buttons .btn{
-
-    margin-right:15px;
-
-}
-
-.hero-buttons .btn i{
-
-    margin-right:8px;
 
 }
 
