@@ -164,9 +164,53 @@ section{
 
     font-weight:700;
 
-    margin-bottom:60px;
+    margin-bottom:15px;
 
     color:#0f172a;
+
+}
+
+.section-title{
+
+    position:relative;
+
+    display:inline-block;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+.section-title::after{
+
+    content:"";
+
+    width:70px;
+
+    height:4px;
+
+    background:#2563eb;
+
+    display:block;
+
+    margin:15px auto;
+
+    border-radius:20px;
+
+}
+
+.section-subtitle{
+
+max-width:800px;
+
+margin: 15px auto 30px;
+
+text-align:center;
+
+font-size:18px;
+
+color:#64748b;
 
 }
 
@@ -614,53 +658,11 @@ Premium Navbar
 
 }
 
-.section-title{
 
-    position:relative;
-
-    display:inline-block;
-
-    left:50%;
-
-    transform:translateX(-50%);
-
-}
-
-.section-title::after{
-
-    content:"";
-
-    width:70px;
-
-    height:4px;
-
-    background:#2563eb;
-
-    display:block;
-
-    margin:15px auto;
-
-    border-radius:20px;
-
-}
 
 /*=========================================
 Research Section
 =========================================*/
-
-.section-subtitle{
-
-max-width:800px;
-
-margin: 15px auto 30px;
-
-text-align:center;
-
-font-size:18px;
-
-color:#64748b;
-
-}
 
 .research-item{
 
