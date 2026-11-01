@@ -586,39 +586,25 @@ Premium Navbar
 }
 
 .nav-link{
-
     position:relative;
-
     font-weight:500;
-
     margin-left:25px;
-
 }
 
 .nav-link::after{
-
     content:"";
-
     position:absolute;
-
     left:0;
-
     bottom:-6px;
-
     width:0;
-
     height:2px;
-
     background:#2563eb;
-
     transition:.3s;
-
 }
 
-.nav-link:hover::after{
-
-    width:100%;
-
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
 }
 
 .profile-image{
